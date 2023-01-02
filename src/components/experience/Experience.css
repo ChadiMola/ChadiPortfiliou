@@ -16,7 +16,7 @@
     border-color: var(--color-primary-variant);
 }
 .experience__container > div:hover .bar{
-    border-color: var(--light-color);
+    border-color: var(--color-light);
 }
 .experience__container > div h3 {
     text-align: center;
@@ -28,7 +28,29 @@
     grid-template-columns: 1fr;
     row-gap: 2rem;
 }
-.experience_details{
+.experience__details{
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
+    align-items: center;
+}
+@media screen and (max-width: 1024px) {
+    .experience__container{
+        grid-template-columns: 1fr;
+
+
+    }
+    .experience__container > div {
+        width:80%;
+        margin : 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+.experience__container > div {
+    width: 100%;
+    padding: 2rem 2rem;
+    margin : 0 auto;
+}
 }

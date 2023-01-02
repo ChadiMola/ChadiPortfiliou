@@ -18,16 +18,14 @@
   --color-light: rgba(255, 255, 255, 0.6);
   --container-widhth-lg: 75%;
   --container-widhth-md: 86%;
-  --container-widhth-ms: 90%;
+  --container-widhth-sm: 90%;
   --transition: all 400ms ease;
 }
 
 html {
   scroll-behavior: smooth;
 }
-::-webkit-scrollbar {
-  display: none;
-}
+
 
 body {
   font-family: "Poppins", sans-serif;

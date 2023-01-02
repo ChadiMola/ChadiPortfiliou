@@ -15,8 +15,8 @@ function App() {
       <NavBar />
       <About />
       <Experience />
-      <Portfiliou />
-      <Testio />
+      {/*<Portfiliou />
+      <Testio />*/}
       <Contact />
       <Footer />
     </>

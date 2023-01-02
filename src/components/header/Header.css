@@ -75,7 +75,7 @@ header {
 
 @media screen and (max-width: 1024px) {
   header {
-    height: 90vh;
+    min-height: 90vh;
   }
   .scroll__down_text {
     display: block;
@@ -86,7 +86,7 @@ header {
 }
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 5rem;
   }
   .header__socials,
